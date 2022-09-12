@@ -88,6 +88,19 @@ Los datos registrados deben verse en la consola del navegador (no es imprescindi
 
 - ![icono de React](https://img.icons8.com/officel/24/000000/react.png) React
 
+- Dependencias:
+```JSON
+...
+"dependencies": {
+  "bootstrap": "^5.2.1",
+  "react": "^18.2.0",
+  "react-bootstrap": "^2.5.0",
+  "react-dom": "^18.2.0",
+  "react-scripts": "5.0.1"
+}
+...
+```
+
 
 ---
 
