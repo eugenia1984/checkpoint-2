@@ -5,7 +5,7 @@ import Alert from 'react-bootstrap/Alert';
 const Home = () => {
   return(
     <>
-      <Container >
+      <Container className="main">
         <Alert variant="success" className="my-5">
         <Alert.Heading>
           <h2 className="my-4">Bienvenidos al CheckPoint #2</h2>

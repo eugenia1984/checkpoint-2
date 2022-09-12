@@ -1,9 +1,12 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 
 const FormularioDeContactoComponent = () => {
   return(
     <>
-      <p> Formulario de Contacto </p>
+      <Container className="main my-5">
+        <p> Formulario de Contacto </p>
+      </Container>
     </>
   );
 };

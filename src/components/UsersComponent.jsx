@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 const UsersComponent = () => {
   return(
     <>
-      <Container className="my-5">
+      <Container className="main my-5">
         <Table striped bordered hover>
         <thead>
           <tr>
