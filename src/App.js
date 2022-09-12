@@ -9,7 +9,7 @@ import { Footer } from './components/Footer';
 function App() {
   return (
     < >
-    <Header />
+    <Header brand="CheckPoint #2"/>
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/users" element={<Users />} />

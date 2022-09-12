@@ -1,10 +1,24 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({ brand }) => {
   return(
-    <>
-      <p>Header</p>
-    </>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+      <Container>
+        <Navbar.Brand as={Link} to='/' className="text-uppercase">{brand}</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to='/users'  className="text-uppercase text-center">Users</Nav.Link>
+            <Nav.Link as={Link} to='/rickandmorty'  className="text-uppercase text-center">API Rick & Morty</Nav.Link>
+            <Nav.Link as={Link} to='/formulariodecontacto'  className="text-uppercase text-center">Formulario de Contacto</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

@@ -91,6 +91,7 @@ Los datos registrados deben verse en la consola del navegador (no es imprescindi
 - Dependencias:
 ```JSON
 "dependencies": {
+  "axios": "^0.27.2",
   "bootstrap": "^5.2.1",
   "react": "^18.2.0",
   "react-bootstrap": "^2.5.0",
