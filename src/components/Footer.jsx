@@ -6,11 +6,9 @@ import Col from 'react-bootstrap/Col';
 
 const Footer = () => {
   return(
-    <Container fluid>
+    <Container fluid className="footer">
       <Row className="mb-5">
-        <Col xs={12} md={4} className="text-uppercase text-center">Users</Col>
-        <Col xs={12} md={4} className="text-uppercase text-center">API Rick & Morty</Col>
-        <Col xs={12} md={4} className="text-uppercase text-center">Formulario de Contacto</Col>
+        <Col xs={12} className=" text-center">Practica realizada por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noreferrer">María Eugenia Costa</a></Col>
       </Row>
 
       
