@@ -96,6 +96,7 @@ Los datos registrados deben verse en la consola del navegador (no es imprescindi
   "react": "^18.2.0",
   "react-bootstrap": "^2.5.0",
   "react-dom": "^18.2.0",
+  "react-hook-form": "^7.35.0",
   "react-router-dom": "^6.3.0",
   "react-scripts": "5.0.1"
 }
