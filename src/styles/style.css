@@ -20,6 +20,28 @@
 .card {
   box-shadow: -4px 4px #8b8585;
 }
+
+/* Table Users*/
+@media screen and (max-width: 469px) {
+  .small-show,
+  .medium-show,
+  .large-show {
+    display: none;
+  }
+}
+
+@media screen (min-width: 470px) and (max-width: 767px) {
+  .medium-show,
+  .large-show {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .large-show {
+    display: none;
+  }
+}
 /* Footer */
 .footer {
   background-color: #000;

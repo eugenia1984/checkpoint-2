@@ -37,7 +37,7 @@ const RickAndMortyComponent = () => {
 
   return(
     <div  className="main my-5 container"> 
-      <h2 className="text-center mb-5">Rick and Morty</h2>
+      <h2 className="text-center mb-5">API Rick and Morty</h2>
       <div className="container py-5">
         <nav>
           <ul className="pagination justify-content-center">
@@ -58,7 +58,6 @@ const RickAndMortyComponent = () => {
           </ul>
         </nav>
       </div>
-
       <Characters characters={characters} />  
     </div>
   );

@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react";
 import Container from 'react-bootstrap/Container';
 
 const FormularioDeContactoComponent = () => {
+
   return(
     <>
       <Container className="main my-5">

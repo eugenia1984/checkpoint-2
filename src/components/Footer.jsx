@@ -10,10 +10,6 @@ const Footer = () => {
       <Row className="mb-5">
         <Col xs={12} className=" text-center">Practica realizada por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noreferrer">María Eugenia Costa</a></Col>
       </Row>
-
-      
-            
-            
     </Container>
   );
 };
