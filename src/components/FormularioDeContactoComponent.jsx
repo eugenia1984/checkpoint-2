@@ -61,7 +61,7 @@ const FormularioDeContactoComponent = () => {
           <div className="form-floating mb-3">
             <label 
               htmlFor="comments"
-            ></label>
+            >Comentarios:</label>
             <textarea 
               className="form-control" 
               {...register("comments", {

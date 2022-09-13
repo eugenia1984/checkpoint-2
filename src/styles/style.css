@@ -48,6 +48,10 @@ input {
   width: 80%;
   margin: 1rem auto;
 }
+
+label {
+  display: block;
+}
 /* Footer */
 .footer {
   background-color: #000;
